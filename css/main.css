@@ -133,7 +133,7 @@ body {
 .menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
-.menu__link .menu__link.current::after {
+.menu__link.current::after {
   content: "";
   position: absolute;
   display: block;
@@ -804,7 +804,7 @@ body {
   display: none;
   fill: var(--border-color);
 }
-.modal-form-check:checked + .modal-form-own-checkbox .modal-form__own-checkbox-icon {
+.modal-form__check:checked + .modal-form__own-checkbox .modal-form__own-checkbox-icon {
   display: block;
 }
 

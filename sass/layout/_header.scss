@@ -37,7 +37,7 @@
   &:focus {
     color: var(--accent-color);
   }
-  .menu__link.current::after {
+  &.current::after {
     content: '';
     position: absolute;
     display: block;

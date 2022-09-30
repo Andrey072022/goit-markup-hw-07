@@ -158,7 +158,7 @@
 .modal-form__own-checkbox-icon {
   display: none;
   fill: var(--border-color);
-  .modal-form-check:checked + .modal-form-own-checkbox & {
+  .modal-form__check:checked + .modal-form__own-checkbox & {
     display: block;
   }
 }
